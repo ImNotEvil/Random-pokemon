@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<title>RANDOM POKEMON</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<style>
+		img {
+			width: 100%;
+			height: auto;
+		}
+
+		@font-face {
+			font-family: myFirstFont;
+			src: url(pokemon_font.ttf);
+		}
+
+		div {
+			font-family: myFirstFont;
+
+		}
+	</style>
+</head>
+
+<body style="height=100vh;width:25%" class="container bg-dark text-center">
+
+	<div class="">
+		<h2 id="nom" class="bg-danger">CHARIZARD</h2>
+		<img id="image" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png">
+		<div class="row" id="type">
+			<div class="col-6"><img src="https://www.pokebip.com/pokedex-images/types/feu.png"></div>
+			<div class="col-6"><img src="https://www.pokebip.com/pokedex-images/types/vol.png"></div>
+		</div>
+	</div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
