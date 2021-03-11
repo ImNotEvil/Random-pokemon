@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<title>RANDOM POKEMON</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<style>
+		img {
+			width: 100%;
+			height: auto;
+		}
+
+		@font-face {
+			font-family: myFirstFont;
+			src: url(pokemon_font.ttf);
+		}
+
+		div {
+			font-family: myFirstFont;
+		}
+	</style>
+</head>
+
+<body class="row bg-dark text-center">
+
+		<div class="col-2">
+			<h2 id="nom1" onblur="update('1')" contenteditable="true" class="btn btn-block btn-danger">CHARIZARD</h2>
+			<img id="image1" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png">
+			<div class="row" id="type1">
+				<div class="col-6"><img src="https://www.pokebip.com/pokedex-images/types/feu.png"></div>
+				<div class="col-6"><img src="https://www.pokebip.com/pokedex-images/types/vol.png"></div>
+			</div>
+		</div>
+		<div class="col-2">
+			<h2 id="nom2" onblur="update('2')" contenteditable="true" class="btn btn-block btn-danger">CHARIZARD</h2>
+			<img id="image2" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png">
+			<div class="row" id="type2">
+				<div class="col-12"><img src="https://www.pokebip.com/pokedex-images/types/feu.png"></div>
+			</div>
+		</div>
+		<div class="col-2">
+			<h2 id="nom3" onblur="update('3')"  contenteditable="true" class="btn btn-block btn-danger">CHARIZARD</h2>
+			<img id="image3" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png">
+			<div class="row" id="type3">
+				<div class="col-6"><img src="https://www.pokebip.com/pokedex-images/types/feu.png"></div>
+				<div class="col-6"><img src="https://www.pokebip.com/pokedex-images/types/vol.png"></div>
+			</div>
+		</div>
+		<div class="col-2">
+			<h2 id="nom4" onblur="update('4')"  contenteditable="true" class="btn btn-block btn-danger">CHARIZARD</h2>
+			<img id="image4" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png">
+			<div class="row" id="type4">
+				<div class="col-6"><img src="https://www.pokebip.com/pokedex-images/types/feu.png"></div>
+				<div class="col-6"><img src="https://www.pokebip.com/pokedex-images/types/vol.png"></div>
+			</div>
+		</div>
+		<div class="col-2">
+			<h2 id="nom5" onblur="update('5')"  contenteditable="true" class="btn btn-block btn-danger">CHARIZARD</h2>
+			<img id="image5" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png">
+			<div class="row" id="type5">
+				<div class="col-6"><img src="https://www.pokebip.com/pokedex-images/types/feu.png"></div>
+				<div class="col-6"><img src="https://www.pokebip.com/pokedex-images/types/vol.png"></div>
+			</div>
+		</div>
+		<div class="col-2">
+			<h2 id="nom6" onblur="update('6')"  contenteditable="true" class="btn btn-block btn-danger">CHARIZARD</h2>
+			<img id="image6" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png">
+			<div class="row" id="type6">
+				<div class="col-6"><img src="https://www.pokebip.com/pokedex-images/types/feu.png"></div>
+				<div class="col-6"><img src="https://www.pokebip.com/pokedex-images/types/vol.png"></div>
+			</div>
+		</div>
+</body>
+<script src="script2.js"></script>
+</html>
