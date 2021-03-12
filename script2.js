@@ -861,5 +861,5 @@ function update(id) {
     xhttp.send();
 }
 function get_image(col_largeur,type){
-	return `<div class="col-${col_largeur}"><img src="https://www.pokebip.com/pokedex-images/types/${type}.png"></div>`
+	return (`<div class="col-${col_largeur}"><img `+ ((col_largeur==12) ? 'class="poke"': "") +`src="https://www.pokebip.com/pokedex-images/types/${type}.png"></div>`)
 }
